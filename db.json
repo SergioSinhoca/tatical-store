@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "name": "Pistola Taurus G2C Calibre 9mm",
+      "price": "6.500.00",
+      "image": "./assets/pistola1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Munição CBC Polymatch .38 SPL LPC 158gr",
+      "price": "361.06",
+      "image": "./assets/municao1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Espingarda CBC Pump Military 3.0",
+      "price": "9.631.71",
+      "image": "./assets/espingarda1.jpg",
+      "id": 6
+    },
+    {
+      "name": "Pistola Taurus G2C Calibre 9mm",
+      "price": "6.500.00",
+      "image": "./assets/pistola1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Munição CBC Polymatch .38 SPL LPC 158gr",
+      "price": "361.06",
+      "image": "./assets/municao1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Espingarda CBC Pump Military 3.0",
+      "price": "9.631.71",
+      "image": "./assets/espingarda1.jpg",
+      "id": 6
+    },
+    {
+      "name": "Bota Amphibiam Dry 8\" 2.0 - Preta",
+      "price": "719.00",
+      "image": "./assets/bota1.jpg",
+      "id": 11
+    },
+    {
+      "name": "Mochila Tática Assault - Preta 30L",
+      "price": "279.30",
+      "image": "./assets/mochila1.jpg",
+      "id": 12
+    },
+    {
+      "name": "Bota Amphibiam Dry 8\" 2.0 - Preta",
+      "price": "719.00",
+      "image": "./assets/bota1.jpg",
+      "id": 11
+    },
+    {
+      "name": "Mochila Tática Assault - Preta 30L",
+      "price": "279.30",
+      "image": "./assets/mochila1.jpg",
+      "id": 12
+    },
+    {
+      "name": "Pistola Taurus G2C Calibre 9mm",
+      "price": "6.500.00",
+      "image": "./assets/pistola1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Munição CBC Polymatch .38 SPL LPC 158gr",
+      "price": "361.06",
+      "image": "./assets/municao1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Espingarda CBC Pump Military 3.0",
+      "price": "9.631.71",
+      "image": "./assets/espingarda1.jpg",
+      "id": 6
+    },
+    {
+      "name": "Pistola Taurus G2C Calibre 9mm",
+      "price": "6.500.00",
+      "image": "./assets/pistola1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Munição CBC Polymatch .38 SPL LPC 158gr",
+      "price": "361.06",
+      "image": "./assets/municao1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Espingarda CBC Pump Military 3.0",
+      "price": "9.631.71",
+      "image": "./assets/espingarda1.jpg",
+      "id": 6
+    },
+    {
+      "name": "Bota Amphibiam Dry 8\" 2.0 - Preta",
+      "price": "719.00",
+      "image": "./assets/bota1.jpg",
+      "id": 11
+    },
+    {
+      "name": "Mochila Tática Assault - Preta 30L",
+      "price": "279.30",
+      "image": "./assets/mochila1.jpg",
+      "id": 12
+    },
+    {
+      "name": "Bota Amphibiam Dry 8\" 2.0 - Preta",
+      "price": "719.00",
+      "image": "./assets/bota1.jpg",
+      "id": 11
+    },
+    {
+      "name": "Mochila Tática Assault - Preta 30L",
+      "price": "279.30",
+      "image": "./assets/mochila1.jpg",
+      "id": 12
+    }
+  ]
+}
