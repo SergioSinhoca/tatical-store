@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tactical Store</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>Tactical Store</h1>
+    <button id="addProductToggle">Adicionar Produto</button>
+  </header>
+
+  <!-- Formulário de adicionar produto -->
+  <div id="addProductForm" class="hidden">
+    <form id="productForm">
+      <label for="productName">Nome:</label>
+      <input type="text" id="productName" name="productName" required>
+
+      <label for="productPrice">Valor:</label>
+      <input type="number" id="productPrice" name="productPrice" required>
+
+      <label for="productImage">Imagem (URL):</label>
+      <input type="url" id="productImage" name="productImage" required>
+
+      <button type="button" id="saveProduct">Guardar</button>
+      <button type="reset" id="clearFields">Limpar</button>
+    </form>
+  </div>
+
+  <!-- Área de produtos -->
+  <main>
+    <section id="productList">
+      <!-- Produtos adicionados serão exibidos aqui -->
+    </section>
+  </main>
+  <footer>
+    <img src="assets/tatical_store-sem-fundo.png" alt="">
+    <p>Copyright &copy; 2024 &lt;/SLS&gt;</p>
+  </footer>
+  <script src="script/script.js"></script>
+</body>
+</html>
