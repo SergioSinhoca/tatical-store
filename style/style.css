@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset básico */
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: url('../assets/fundo-tela-grandes.jpg');
+    color: #f4f4f4;
+  }
+  
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  header, footer{
+    padding: 3% 0;
+    background-color: #222;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header button {
+    padding: 10px 15px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background-color: #555;
+  }
+  
+  /* Formulário de adicionar produto */
+  .hidden {
+    display: none;
+  }
+  
+  #addProductForm {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Lista de produtos */
+  #productList {
+    margin: 5% 0;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: darkred;
+  }
+
+ 
+
+  footer img{
+    width: 100px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #f4f4f4;
+  }
+
+@media(min-width: 768px){
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header, footer{
+        padding: 1% 0;
+
+    }
+
+}  
+  
